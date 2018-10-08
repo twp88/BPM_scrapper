@@ -1,7 +1,7 @@
 require 'HTTParty'
 require 'Nokogiri'
 
-class Scrapper
+class BpmScrapper
   def initialize(artist, track_name)
     @artist = artist.gsub(/ /, '+')
     @track_name = track_name.gsub(/ /, '+')
